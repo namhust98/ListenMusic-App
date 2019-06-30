@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8sp"
+    android:paddingRight="8sp"
+    android:paddingBottom="8sp"
+    android:paddingLeft="8sp">
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:id="@+id/image_toptrack">
+        </ImageView>
+
+        <TextView
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_toptrack"
+            android:layout_marginLeft="8sp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="12sp"
+            android:id="@+id/name_toptrack"/>
+
+        <TextView
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_toptrack"
+            android:layout_marginLeft="8sp"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:layout_marginTop="30sp"
+            android:id="@+id/title_toptrack"/>
+</RelativeLayout>

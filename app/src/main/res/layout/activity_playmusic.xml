@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PlayMusicActivity"
+    android:orientation="vertical"
+    android:background="#333333">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_playmusic"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar_playmusic"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/time_playmusic"
+            android:textColor="#fff"
+            android:layout_marginTop="8sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/timeSum_playmusic"
+            android:textColor="#fff"
+            android:layout_marginTop="8sp"
+            android:layout_marginLeft="250sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18sp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/kindoflisten_playmusic"
+            android:background="@drawable/normal"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/back_playmusic"
+            android:background="@drawable/back"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/play_playmusic"
+            android:background="@drawable/play"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/next_playmusic"
+            android:background="@drawable/next"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/download_playmusic"
+            android:background="@drawable/download"/>
+
+    </LinearLayout>
+
+</LinearLayout>

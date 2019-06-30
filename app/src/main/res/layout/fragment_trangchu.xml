@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#333333"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentQuangCao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_quang_cao" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RADIO STATION"
+            android:textColor="#33ff99"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentRadioStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_radio_station"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOP TRACK"
+            android:textColor="#33ff99"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentTopTrack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_toptrack"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MIXTAPE OF THE WEEK"
+            android:textColor="#33ff99"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentMixtapeOfTheWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_mixtape_oftheweek"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CATEGORY"
+            android:textColor="#33ff99"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_category"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALBUM"
+            android:textColor="#33ff99"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_album"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIDEO"
+            android:textColor="#33ff99"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentallVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_video"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARTIST"
+            android:textColor="#33ff99"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+        <fragment
+            android:name="com.example.readdata.Fragment.FragmentArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_artist"/>
+
+    </LinearLayout>
+
+</ScrollView>

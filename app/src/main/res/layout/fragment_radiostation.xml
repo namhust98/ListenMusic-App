@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="8sp"
+        android:paddingLeft="8sp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="8sp"
+            android:id="@+id/layout1_radiostation">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:id="@+id/image1_radiostation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name1_radiostation"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title1_radiostation"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="8sp"
+            android:id="@+id/layout2_radiostation">
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:id="@+id/image2_radiostation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name2_radiostation"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title2_radiostation"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8sp"
+        android:paddingTop="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="8sp"
+        android:paddingLeft="8sp"
+        android:id="@+id/layout3_radiostation">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="8sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:id="@+id/image3_radiostation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name3_radiostation"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title3_radiostation"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="8sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="8sp"
+            android:id="@+id/layout4_radiostation">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:id="@+id/image4_radiostation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name4_radiostation"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title4_radiostation"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

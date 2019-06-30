@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8sp"
+    android:paddingRight="8sp"
+    android:paddingBottom="8sp"
+    android:paddingLeft="8sp">
+
+
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:id="@+id/image_mixtapeoftheweek"/>
+
+    <TextView
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_mixtapeoftheweek"
+        android:layout_marginLeft="8sp"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="12sp"
+        android:id="@+id/name_mixtapeoftheweek"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_mixtapeoftheweek"
+        android:layout_marginLeft="8sp"
+        android:text="ĐỘC QUYỀN"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:textColor="#ff3300"
+        android:layout_marginTop="36sp"
+        android:id="@+id/isDocquyen_mixtapeoftheweek"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/isDocquyen_mixtapeoftheweek"
+        android:layout_marginLeft="8sp"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        android:layout_marginTop="30sp"
+        android:id="@+id/title_mixtapeoftheweek"/>
+</RelativeLayout>
